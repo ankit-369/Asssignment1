@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/task-2/task2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    .container{
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    
+    width: 100%;
+}
+.links{
+    margin-left:50% ; 
+    margin-top: 2%;
+}
+.menu{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    width: 10%;
+    overflow: hidden;
+    float: left;
+
+}
+.menulogo{
+    background-color: black;
+    color: white;
+    text-align: end;
+    padding-right: 10px;
+}
+.main{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin-left: 15%;
+    width: fit-content;
+}
+.hadding{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    background-color: blue;
+}
+.project{
+    margin-left: 10%;
+    color: white;   
+}
+.task1{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin-left: 10%;
+    width: 30%;
+    float: left;
+}
+.hadding1{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.hader1{
+    text-align: center;
+}
+.lorem1{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.down{
+    text-align: right;
+    margin-right: 7%;
+}
+
+.task2{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin-right:10% ;
+    margin-left: 50%;
+    width: 47%;
+
+}
+.hadding2{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.hader2{
+    text-align: center;
+}
+.thread{
+    background-color: cornsilk;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    margin-top: 7%;
+}
+.sub{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%; 
+}
+.sub1{
+    background-color: rgb(235, 233, 233);
+    border-radius: 10%;
+    max-width: 90%;
+}
+.sub2{
+    background-color: rgb(235, 233, 233);
+    border-radius: 10%;
+    margin-left: 10%;
+    max-width: 90%;
+    
+}
+.text{
+    margin-top: 0;
+    border-radius: 15%;
+    height:50px;
+    margin-left: 3%;
+    max-width: 89%;  
+    border-style: none;
+    
+}
+.bulb{
+    display: flex;
+    flex-direction: row;
+}
+#justify{
+    margin: 4px;
+}
+.select{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.category{
+    display: flex;
+    flex-direction: row;
+    border: 0.5px solid black;
+    height: 30px;
+    /* width: 40%; */
+    border-radius: 3px;
+    margin: 4px;
+    text-align: center;
+}
+#down{
+    margin-left: 10px;
+}
+.select-cate{
+    display: flex;
+    flex-direction: row;
+    margin-top: -5%;
+    width: 105%;
+    /* height: 30px; */
+}
+.fst{
+    margin-left: 10%;
+    margin-top: 6%;
+}
+.fstbutton{
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+}
+.summary-for{
+    background-color: rgb(235, 233, 233);
+    border-radius: 9%;
+    width: 88%;
+    margin-left: 6%;
+}
+.summary-text{
+    border-radius: 15%;
+    height:50px;
+    margin-left: 3%;
+    width: 91%; 
+    border-style: none;
+}
+.credit{
+    width: 52%;
+    margin-top: 10px;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+    
+}
+#link ,#credit, #pen{
+    margin: 5px;
+}
+#credit{
+    font-weight: bold;
+}
+.emotion{
+    width: 28%;
+    margin-left: 63%;
+    margin-top: -25px;
+}
+.select-emotion{
+    display: flex;
+    flex-direction: row;
+    border: 0.5px solid black;
+
+    height: 30px;
+    width: 105%;
+    border-radius: 3px;
+}
+.se{
+    margin-top: -1px;
+}
+#down1{
+    margin-left: 16%;
+}
+.new{
+    margin-left: 67%;
+    margin-top: 10px;
+}
+.secoundbutton{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    height: 43px;
+    
+}
+.file{
+    margin-top: 10px;
+    margin-left: 90%;
+}
+.arrow2{
+   margin-top: 5px;
+}
+
+.task34{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.task3{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin-left: 10%;
+    width: 30%;
+    background-color: rgb(242, 243, 243);
+    height: 230px;
+}
+.hadding3{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.hader3{
+    text-align: center;
+}
+.reflect{
+    margin-left: 7%;
+    margin-top: 15px;
+    
+}
+.reflecttext{
+    height: 120px;
+    border-radius: 9%;
+    width: 90%;
+    border-style: none;
+    
+}
+.task4{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin-left: 10%;
+    width: 47%;
+    background-color: rgb(242, 243, 243);
+}
+.hadding4{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.hader4{
+    text-align: center;
+}
+.bigdata1{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.task78{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.task7{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin-left: 10%;
+    width: 30%;
+    /* height: 230px; */
+}
+.hadding7{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.hader7{
+    text-align: center;
+}
+.introduction{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(242, 243, 243);
+    margin-top: 5%;
+    height: 35px;
+    padding-left: 9%;
+    font-weight: bold;
+}
+.introduction1{
+    margin-left: 9%;
+    
+}
+
+.enterintroduction{
+    border-radius: 9%;
+    height: 60px;
+    width: 70%;
+    margin-top: 5%;
+}
+.threada7{
+    display: flex;
+    flex-direction: row;
+    padding-left: 9%;
+    border: 0.5px black solid;
+    height: 29px; 
+    font-weight: bold;
+}
+.threada2{
+    margin-left: 9%;
+}
+.new2{
+    margin-top: 10px;
+    margin-left: 53%;
+}
+.file7{
+    margin-left: 80%;
+    margin-top: 5%;
+}
+
+.task8{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin-left: 10%;
+    width: 47%;
+    height: 170px;
+}
+.hadding8{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.hader8{
+    text-align: center;
+}
+.play1{
+    margin-top: 5%;
+}
+
+.task9{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 60%;
+    /* height: 230px; */
+}
+.hadding9{
+    border: 0.5px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.hader9{
+    text-align: center;
+}
+.next{
+    margin-left: 85%;
+    margin-top: 5%;
+}
+.nextbtn{
+    background-color: blue;
+    color: white;
+    width: 70px;
+    height: 50px;
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo"><img src="/Screenshot 2022-07-30 151717.jpg"></div>
+        <div class="links">
+            <a href=""><i class="fa fa-home" style="font-size:24px" class="home"></i></a>
+            <a href=""><i class="fa fa-gear" style="font-size:24px" class="home1"></i></a>
+            <a href=""><i class="fa fa-bell" style="font-size:24px" class="home"></i></a>
+            <a href="">image</a>
+            <a href=""><i class="fa fa-ellipsis-v" style="font-size:24px" class="home"></i></a>
+        </div>
+    </div>
+
+    <div class="menu">
+        <div class="menulogo">
+          <div class="melo"><i class="fa fa-bars" style="font-size:24px" class="home"></i></div>
+        </div>
+        <div class="demotask">
+            <h4 class="demotask1">1.demo task</h4>
+        </div><hr width="60%">
+        <ul>
+            <li>task heading 1</li><hr>
+            <li>task heading 2</li><hr>
+            <li>task heading 3</li><hr>
+            <li>task heading 4</li><hr>
+            <li>task heading 5</li><hr>
+            <li>task heading 6</li><hr>
+            <li>task heading 7</li><hr>
+            <li>task heading 8</li><hr>
+            <li>task heading 9</li><hr>
+
+        </ul>
+        
+    </div>
+
+
+
+    <div class="main">
+    <div class="hadding">
+        <div class="project"><p>You Are Taking Challenges Of New Project</p></div>
+    </div>
+
+    <div class="task1">
+        <div class="hadding1">
+            <div class="hader1"><p>Task Heading 1</p></div>
+        </div>
+        <div class="lorem1">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias laudantium laboriosam sed qui quasi natus inventore iure quod dicta, dolor, atque, itaque explicabo laborum aliquam.</p>
+        </div>
+        <div class="arrow">
+            <div class="down"><i class="fa fa-angle-down" style="font-size:30px"></i></div>
+        </div>
+    </div>
+    <div class="task2">
+        <div class="hadding2">
+            <div class="hader2"><p>Task Heading 2</p></div>
+        </div>
+        <div class="thread">
+            <div class="threadA"><p>Thread A</p></div>
+        </div>
+        <div class="sub">
+            <div class="sub1">
+                <div class="thread1"><p>Sub Thread 1</p></div>
+                <div class="tex">
+                    <input type="text" placeholder="Enter Text Here" class="text">
+                </div>
+            </div>
+            <div class="sub2">
+                <div class="thread2"><p>Sub Thread 1</p></div>
+                <div class="tex">
+                    <input type="text" placeholder="Enter Text Here" class="text">
+                </div>
+            </div>
+        </div>
+        <div class="select">
+            <div class="bulb">
+                <i class="fa fa-lightbulb-o" style="font-size:30px" ></i>
+                <i class="fa fa-align-justify" style="font-size:24px" id="justify"></i>
+            </div>
+            <div class="category">
+                <div class="select-cate"><p>Select Category</p><i class="fa fa-angle-down" style="font-size:25px" id="down"></i></div>
+            </div>
+            <div class="category">
+                <div class="select-cate"><p>Select Category</p><i class="fa fa-angle-down" style="font-size:25px" id="down"></i></div>
+            </div>
+        </div>
+        <div class="fst">
+            <button class="fstbutton">+ Sub thread</button>
+        </div>
+        <div class="summary">
+            <div class="summary-for"><p>Summary for Thread A</p>
+                <input type="text" class="summary-text" placeholder="Enter Text Here">
+            </div>
+        </div>
+        <div class="credit">
+            <div class="link">
+                <i class='fas fa-link' style='font-size:30px' id="link"></i>
+                <p id="credit">Thread Credit </p>
+                <i class="fa fa-pencil" style="font-size:28px ;color:blue" id="pen"></i>
+            </div>
+        </div>
+        <div class="emotion">
+            <div class="select-emotion">
+                <p class="se">Select Emotion</p>
+                <i class="fa fa-angle-down" style="font-size:25px" id="down1"></i>
+            </div>
+        </div>
+        <div class="new">
+            <button class="secoundbutton">+ New thread</button>
+        </div>
+        <div class="file">
+            <i class="fa fa-file" style="font-size:24px"></i>
+        </div>
+        <div class="arrow2">
+            <div class="down"><i class="fa fa-angle-down" style="font-size:30px"></i></div>
+        </div>
+    </div>
+
+
+    <div class="task34">
+     <div class="task3">
+        <div class="hadding3">
+            <div class="hader3"><p>task heading 3</p></div>
+        </div>
+        <div class="reflect">
+            <div class="reflect3"><input type="text" placeholder="Reflect as per given guidelines" class="reflecttext"></div>
+        </div>
+        <div class="arrow">
+            <div class="down"><i class="fa fa-angle-down" style="font-size:30px"></i></div>
+        </div>
+     </div>
+
+     <div class="task4">
+        <div class="hadding4">
+            <div class="hader4"><p>task heading 4</p></div>
+        </div>
+        <div class="photo">
+            <div class="bigdata"><img src="/Screenshot 2022-07-31 105437.jpg" class="bigdata1"></div>
+        </div>
+        <div class="arrow">
+            <div class="down"><i class="fa fa-angle-down" style="font-size:30px"></i></div>
+        </div>
+     </div>   
+    </div>
+
+    <div class="task78">
+        <div class="task7">
+            <div class="hadding7">
+                <div class="hader7"><p>task heading 3</p></div>
+            </div>
+            <div class="introduction">
+                <div class="up"><i class="fa fa-angle-up" style="font-size:30px"></i></div>
+                <div class="introduction1"><p>Introduction</p></div>
+            </div>
+           <center> <div class="enter7">
+                <input type="text" placeholder="Enter Text Here" class="enterintroduction">
+            </div></center>
+            
+            <div class="threada7">
+                <div class="up"><i class="fa fa-angle-up" style="font-size:30px"></i></div>
+                <div class="threada2"><p>Thread A</p></div>
+            </div>
+            <div class="summary">
+                <div class="summary-for"><p>Example 1</p>
+                    <input type="text" class="summary-text" placeholder="Enter Text Here">
+                </div>
+            </div>
+            <div class="fst">
+                <button class="fstbutton">+ Example</button>
+            </div>
+            <div class="summary">
+                <div class="summary-for"><p>Argument for Thread A</p>
+                    <input type="text" class="summary-text" placeholder="Enter Text Here">
+                </div>
+            </div>
+            <div class="new2">
+                <button class="secoundbutton">+ New thread</button>
+            </div>
+            <div class="introduction">
+                <div class="up"><i class="fa fa-angle-up" style="font-size:30px"></i></div>
+                <div class="introduction1"><p>Introduction</p></div>
+            </div>
+            <center> <div class="enter7">
+                <input type="text" placeholder="Enter Conclusion" class="enterintroduction">
+            </div></center>
+            <div class="file7">
+                <i class="fa fa-file" style="font-size:24px"></i>
+            </div>
+            <div class="arrow">
+                <div class="down"><i class="fa fa-angle-down" style="font-size:30px"></i></div>
+            </div>
+        </div>    
+        <div class="task8">
+            <div class="hadding8">
+                <div class="hader8"><p>task heading 8</p></div>
+            </div>
+            <div class="play">
+                <div class="controls">
+                   <center> <div class="play1">
+                        <audio src="/WhatsApp Audio 2022-05-09 at 00.09.14.mpeg" controls alt="set path"></audio>
+                    </div></center>
+                </div>
+            </div>
+            <div class="arrow">
+                <div class="down"><i class="fa fa-angle-down" style="font-size:30px"></i></div>
+            </div>
+        </div>    
+    </div>
+    <center><div class="task9">
+        <div class="hadding9">
+            <div class="hader9"><p>task heading 9</p></div>
+        </div>
+        <iframe width="90%" height="300" src="https://www.youtube.com/embed/s8H0Sx7jy7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        <div class="arrow">
+            <div class="down"><i class="fa fa-angle-down" style="font-size:30px"></i></div>
+        </div>
+    </div></center>
+
+    </div>
+    <div class="next">
+        <button class="nextbtn">next</button>
+    </div>
+</body>
+</html>
